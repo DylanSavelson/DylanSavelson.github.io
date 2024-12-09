@@ -49,6 +49,8 @@
 
 .navbar {
     transition: transform 0.3s ease-in-out;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.5);
+    background-color: #1c1f22;
 }
 
 header {
