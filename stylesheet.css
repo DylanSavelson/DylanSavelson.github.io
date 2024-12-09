@@ -80,10 +80,15 @@ header::before {
 
 @keyframes move-bg {
     0% { transform: translate(-50%, -50%) rotate(0deg); }
-    100% { transform: translate(-50%, -50%) rotate(180deg); }
+    100% { transform: translate(-50%, -50%) rotate(360deg); }
 }
 
 header h1, header p {
     position: relative;
     z-index: 2;
+}
+
+#about img {
+    max-width: 20%;
+    height: auto;
 }
