@@ -92,3 +92,15 @@ header h1, header p {
     max-width: 20%;
     height: auto;
 }
+
+.icon {
+    width: 150px; 
+    height: auto;
+    margin: 5px; 
+}
+
+@media (max-width: 768px) {
+    .icon {
+        width: 50px; 
+    }
+}
