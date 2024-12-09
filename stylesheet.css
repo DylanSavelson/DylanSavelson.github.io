@@ -71,14 +71,14 @@ header::before {
     left: 0;
     width: 200%;
     height: 200%;
-    background: radial-gradient(circle, #272a2e 20%, transparent 90%);
+    background: linear-gradient(to right, #212529, #43494e);
     animation: move-bg 10s infinite linear;
     z-index: 1;
 }
 
 @keyframes move-bg {
     0% { transform: translate(-50%, -50%) rotate(0deg); }
-    100% { transform: translate(-50%, -50%) rotate(360deg); }
+    100% { transform: translate(-50%, -50%) rotate(180deg); }
 }
 
 header h1, header p {
