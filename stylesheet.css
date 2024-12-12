@@ -130,6 +130,11 @@ header h1, header p, header #mainBtn{
 #contactcss{
     background-color: #1c1f22;
 }
+
 #title, #contactText, #aboutText, #projectsText{
     font-family:"MightySouly";
+}
+
+#navHome{
+    color:rgba(255,255,255,.55) !important
 }
