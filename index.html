@@ -14,7 +14,7 @@
 <body>
 	<header class="text-white text-center py-5 bg-dark">
 		<div class="container">
-			<h1 class="display-4">Hi, I'm Dylan Savelson</h1>
+			<p  class="display-1" id="title">Hi, I'm Dylan Savelson</p>
 			<p class="lead">A computer science student at John Abbott College passionate about coding and the world of
 				computers.</p>
 			<a id="mainBtn" class="btn btn-dark border border-secondary" href="#about">View more</a>
@@ -43,7 +43,7 @@
 	<section id="about" class="pt-5 bg-dark">
 		<div class="container mt-5">
 			<div class="row justify-content-center">
-				<div class="col-md-9 d-flex align-items-center gap-4 text-center mb-5 mx-auto">
+				<div class="col-md-9 d-flex align-items-center gap-5 text-center mb-5 mx-auto">
 					<div id="slideshow" class="border border-secondary border-2 rounded">
 						<img src="./assets/Me1.jpg" alt="Dylan Savelson" class="mw-100">
 						<img src="./assets/Me2.png" alt="Dylan Savelson" class="mw-100">
@@ -193,11 +193,19 @@
 
 	<section id="contact" class="py-5 bg-dark">
 		<div class="container">
-			<div class="col-md-12 bg-light">
-				<h5 class="card-title text-center">Don't hesitate to reach out! (insert contact info here)</h5>
+			<div id="contactcss" class="col-md-4 d-flex flex-column mx-auto bg-secondary shadow-lg p-3 mb-5 bg-secondary rounded">
+				<h5 id="contactText" class="card-title text-center">Don't hesitate to reach out</h5>
+				<a href="https://github.com/DylanSavelson" target="_blank" rel="noreferrer" class="d-flex justify-content-center">
+					<img src="/assets/github icon.png" alt="github icon" class="contactIcons"/>
+				</a>
 			</div>
 		</div>
 	</section>
+
+	<footer class="text-center bg-dark text-white">
+		<p>Coded and Designed by @DylanSavelson</p>
+		<p class="mb-0">© Dylan Savelson 2024</p>
+	</footer>
 </body>
 
 </html>
