@@ -118,10 +118,6 @@ header h1, header p, header #mainBtn{
     display: block;
 }
 
-#contactcss{
-    border: 2px solid black;
-}
-
 .contactIcons
 {
     max-width: 40px;
@@ -131,6 +127,9 @@ header h1, header p, header #mainBtn{
     color:black;
 }
 
-#title{
+#contactcss{
+    background-color: #1c1f22;
+}
+#title, #contactText, #aboutText, #projectsText{
     font-family:"MightySouly";
 }

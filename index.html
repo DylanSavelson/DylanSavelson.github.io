@@ -50,7 +50,7 @@
 					</div>
 					<div class="col-md-6">
 						<div class="text-center mb-3">
-							<h1 class="text-white">About</h1>
+							<h1 id="aboutText" class="text-white">About</h1>
 						</div>			
 						<p class="text-white fs-5">
 							I'm a computer science student with a strong interest in web development, hardware, and software engineering. I enjoy tackling challenging projects and constantly learning new technologies.
@@ -134,7 +134,7 @@
 
 	<section id="projects" class="py-5 bg-dark">
 		<div class="container mt-5">
-			<h2 class="text-center text-white mb-4">Projects</h2>
+			<h1 id="projectsText" class="text-center text-white mb-4">Projects</h1>
 
 			<a class="text-decoration-none" href="https://github.com/DylanSavelson/MovieMatchers" target="_blank">
 				<div class="row my-5">
@@ -193,18 +193,27 @@
 
 	<section id="contact" class="py-5 bg-dark">
 		<div class="container">
-			<div id="contactcss" class="col-md-4 d-flex flex-column mx-auto bg-secondary shadow-lg p-3 mb-5 bg-secondary rounded">
-				<h5 id="contactText" class="card-title text-center">Don't hesitate to reach out</h5>
-				<a href="https://github.com/DylanSavelson" target="_blank" rel="noreferrer" class="d-flex justify-content-center">
-					<img src="/assets/github icon.png" alt="github icon" class="contactIcons"/>
-				</a>
+			<div id="contactcss" class="col-md-4 d-flex flex-column mx-auto py-5 shadow-lg p-3 mb-5 rounded">
+				<h3 id="contactText" class="card-title text-center mb-4">Don't hesitate to reach out</h3>
+				<div class="d-flex justify-content-center gap-4 mb-0">
+					<a href="https://github.com/DylanSavelson" target="_blank" rel="noreferrer">
+						<img src="/assets/github icon.png" alt="github icon" class="contactIcons"/>
+					</a>
+					<a href="https://www.linkedin.com/in/dylan-savelson/" target="_blank" rel="noreferrer">
+						<img src="/assets/linkedin icon.png" alt="linkedin icon" class="contactIcons"/>
+					</a>
+					<a href="mailto:DylannSavelson@gmail.com">
+						<img src="/assets/mail icon.png" alt="mail icon" class="contactIcons"/>
+					</a>
+
+				</div>
 			</div>
 		</div>
 	</section>
 
-	<footer class="text-center bg-dark text-white">
-		<p>Coded and Designed by @DylanSavelson</p>
+	<footer class="text-center bg-dark text-white d-flex justify-content-around">
 		<p class="mb-0">© Dylan Savelson 2024</p>
+		<p>Coded and Designed by @DylanSavelson</p>
 	</footer>
 </body>
 
